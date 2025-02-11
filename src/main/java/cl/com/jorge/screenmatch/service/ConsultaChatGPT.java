@@ -2,7 +2,9 @@ package cl.com.jorge.screenmatch.service;
 
 import com.theokanning.openai.completion.CompletionRequest;
 import com.theokanning.openai.service.OpenAiService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ConsultaChatGPT {
     public static String obterTraducao(String texto) {
         OpenAiService service = new OpenAiService(System.getenv("OPENAI_APIKEY"));

@@ -3,10 +3,10 @@ package cl.com.jorge.screenmatch.model;
 public enum Categoria {
     ACAO("Action", "Acao"),
     ROMANCE("Romance", "Romance"),
-    COMEDIA("Comedy", "Comedia"),
+    COMEDIA("Comedy", "Comédia"),
     DRAMA("Drama", "Drama"),
-    CRIME("Crime", "Crime");
-
+    CRIME("Crime", "Crime"),
+    AVENTURA("adventure", "aventura");
     private String categoriaOmdb;
 
     private String categoriaPortugues;
